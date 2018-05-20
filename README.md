@@ -9,7 +9,7 @@
 
 4.`cp .vimrc ~/`
 
-5. Download [vim-plug](https://github.com/junegunn/vim-plug)
+5.Download [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
