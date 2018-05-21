@@ -17,7 +17,7 @@ call plug#begin()
 
 	Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 
-	Plug 'bling/vim-airline' | Plug 'airblade/vim-gitgutter'
+	Plug 'airblade/vim-gitgutter'
 	Plug 'airblade/vim-rooter'
 
 	Plug 'ciaranm/detectindent'
@@ -101,12 +101,12 @@ map <leader>w :NERDTreeFocusToggle<CR>
 map <leader>q :NERDTreeToggle<CR>
 let g:NERDTreeShowHidden=1
 let g:NERDTreeIgnore=['\.git$', '\.idea$', '\~$','\.DS_Store']
-let g:nerdtree_tabs_open_on_console_startup = 1
+let g:nerdtree_tabs_open_on_console_startup = 2
 let g:nerdtree_tabs_autofind = 1
 let g:NERDTreeWinPos = "left"
 
 " air-line
-let g:airline_theme='dracula'
+let g:airline_theme='base16'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#whitespace#enabled = 0
 let g:airline_powerline_fonts = 1
